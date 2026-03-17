@@ -11,7 +11,7 @@ O projeto agora esta configurado para usar `web` primeiro e permitir voltar depo
 
 - Recebe mensagens por QR Code no WhatsApp Web ou por webhook oficial
 - Gera respostas com IA em portugues
-- Usa contexto da Argacon para nao responder no escuro
+- Usa contexto da para nao responder no escuro
 - Salva o historico dos leads em `data/leads.json`
 - Permite enriquecer a IA com arquivos locais em `data/knowledge`
 - Disponibiliza endpoints para listar e inspecionar leads
@@ -124,7 +124,7 @@ Exemplos:
 - `data/knowledge/produtos.json`
 - `data/knowledge/catalogo.pdf`
 
-Esses arquivos entram no contexto enviado para a IA junto com as informacoes basicas da Argacon.
+Esses arquivos entram no contexto enviado para a IA junto com as informacoes basicas.
 
 ## Voltando depois para a Cloud API oficial
 
@@ -146,7 +146,7 @@ O envio de resposta usa o endpoint oficial de mensagens do WhatsApp Cloud API. A
 
 A IA foi instruida para:
 
-- Responder como SDR/comercial da Argacon
+- Responder como SDR/comercial
 - Fazer qualificacao de lead sem inventar preco, estoque ou prazo
 - Coletar nome, empresa, cidade, produto, aplicacao, quantidade e urgencia
 - Encaminhar para humano quando o cliente pedir algo que exige confirmacao comercial
