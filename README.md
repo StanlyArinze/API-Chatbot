@@ -1,6 +1,6 @@
 # API de WhatsApp para leads
 
-API em Node.js para atender leads da Argacon no WhatsApp usando dois modos:
+API em Node.js para atender leads no WhatsApp usando dois modos:
 
 - `web`: login por QR Code com `whatsapp-web.js`
 - `cloud`: webhook oficial do WhatsApp Cloud API
