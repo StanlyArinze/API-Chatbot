@@ -1,4 +1,4 @@
-# API de WhatsApp para leads da Argacon
+# API de WhatsApp para leads
 
 API em Node.js para atender leads da Argacon no WhatsApp usando dois modos:
 
